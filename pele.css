@@ -1,0 +1,116 @@
+.header{
+  height: 55px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+.left-side{
+  align-items: center;
+  display: flex;
+
+}
+.hamburger{
+  height: 20px;
+  margin-top:20px;
+  padding-left: 10px;
+}
+.right-side{
+   width: 100px;
+   height: 0px;
+   margin-left: 50px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   flex-shrink: 0;
+   position: absolute;
+  }
+  .insta,.tele,.wasap{
+    height: 30px;
+    position: relative;
+    margin-bottom: 40px;
+    padding: 20px;
+    margin-right: 20px;
+  }
+
+
+.ft{
+  font-weight: 500;
+  font-family: arial;
+  margin-left: 50px;
+}
+.ft-2{
+  font-size: small;
+  margin-left: 100px;
+}
+.NAME-1,.NAME-2{
+display: block;
+margin-left: 70px;
+font-weight: 700;
+}
+.cart-buttn,.cart-buttn2{
+  margin-left: 80px;
+  font-size:small;
+  color: white;
+  background-color: black;
+  border-color: black;
+  border-radius: 3px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-right: 3px;
+  padding-left: 3px;
+}
+.cart-buttn:hover,.cart-buttn2:hover{
+  background-color: rgb(12, 43, 33);
+}
+.middle-section{
+flex: 1;
+margin-left: 350px;
+margin-right: 35px;
+max-width: 500px;
+align-items: center;
+display: flex;
+}
+.search-bar{
+flex: 1;
+padding-left: 10px;
+height: 36px;
+font-size: 16px;
+border-width: 1px;
+border-style: solid;
+border-color: rgb(192,192, 192);
+border-radius: 2px;
+box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+width: 0;
+
+
+}
+.search-bar::placeholder{
+font-family: roboto,arial;
+font-size: 16px;
+}
+.search-button{
+height: 40px;
+width: 60px;
+background-color: rgb(240,240, 240);
+border-width: 1px;
+border-style: solid;
+border-color: rgb(192,192, 192);
+margin-left: -1px;
+}
+.search-icon{
+height: 25px;
+margin-top: 4px;
+}
+.shoe,.loafers{
+width: 300px;
+height: 300px;
+object-position: 0;
+}
+.shoes-grid{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+}
